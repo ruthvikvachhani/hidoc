@@ -1,0 +1,72 @@
+.article {
+  padding-top: 10px;
+}
+
+.article .article-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.article .article-content {
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+}
+.article .article-content div {
+  padding: 5px;
+}
+
+.article .article-container .application {
+  border: 2px solid grey;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.new-app {
+  display: flex;
+}
+
+.app-icon {
+  color: aqua;
+  background-color: whitesmoke;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.app-icon .icon {
+  position: relative;
+  top: calc(20%);
+}
+
+.app-desc {
+  text-align: left;
+  font-size: medium;
+  top: calc(20%);
+}
+
+.article-divider {
+  margin: 10px;
+}
+
+.visit {
+  background-color: lightcyan;
+  margin: 10px 30px;
+  padding: 1px 5px;
+  text-align: center;
+}
+
+.visit h1 {
+  margin: 0;
+}
+
+.visit-btn button {
+  border: none;
+  height: 4rem;
+  margin: 10px 0;
+  width: 10rem;
+  border-radius: 5rem 5rem;
+  background-color: dodgerblue;
+}

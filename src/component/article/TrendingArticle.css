@@ -1,0 +1,36 @@
+.trending-news {
+  border: 2px solid grey;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.trending-news .lable {
+  margin: 5px;
+  padding: 7px 0;
+  font-size: 20px;
+}
+
+.trending-news .article-divider {
+  margin: 5px;
+}
+
+.trending-news .article {
+  padding: 5px;
+}
+.trending-news .article div div:last-child {
+  text-align: left;
+  padding: 0 10px;
+}
+
+.trending-news .article > div {
+  padding: 15px 5px;
+}
+
+.trending-news .article a {
+  text-decoration: none;
+  color: black;
+}
+
+.trending-news .article a:hover {
+  color: blue;
+}

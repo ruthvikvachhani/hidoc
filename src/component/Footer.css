@@ -1,0 +1,130 @@
+.footer {
+  background-color: midnightblue;
+  display: flex;
+  padding: 5px;
+}
+.footer-item {
+  margin: 2rem;
+  margin-bottom: 0;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+.contact {
+  display: flex;
+}
+.icon-container {
+  padding: 1rem 0;
+}
+.icon-container .icon {
+  height: 3rem;
+  width: 3rem;
+  color: white;
+}
+
+.reach-us {
+  color: white;
+  width: 25%;
+}
+
+.reach-us h4 {
+  margin: 0 0 1px;
+}
+
+.reach-us p,
+.title-cont {
+  margin: 0 0 1rem;
+}
+
+.reach-us .title {
+  color: cyan;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+}
+
+.features {
+  color: white;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.feature-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature-container .feature-icon {
+  width: 25%;
+}
+
+.feature-container .feature-icon div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.feature {
+  border-radius: 50%;
+  color: white;
+}
+
+.drug-database,
+.diseases-database {
+  background-color: aquamarine;
+  color: cornflowerblue;
+}
+.drug-database .feature,
+.diseases-database .feature {
+  background-color: cornflowerblue;
+}
+
+.social-network,
+.surveys {
+  background-color: lightcoral;
+  color: brown;
+}
+
+.social-network .feature,
+.surveys .feature {
+  background-color: brown;
+}
+
+.drug-interaction,
+.articles {
+  background-color: lightgoldenrodyellow;
+  color: goldenrod;
+}
+
+.drug-interaction .feature,
+.articles .feature {
+  background-color: goldenrod;
+}
+
+.medical-calculator {
+  background-color: lightgreen;
+  color: green;
+}
+
+.medical-calculator .feature {
+  background-color: green;
+}
+
+.quizzes {
+  background-color: lightblue;
+  color: darkcyan;
+}
+.quizzes .feature {
+  background-color: darkcyan;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.copyright p{
+    margin: 1px;
+}

@@ -1,0 +1,31 @@
+.latest-news {
+  border: 2px solid grey;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.latest-news .lable {
+  margin: 5px;
+  padding: 7px 0;
+  font-size: 20px;
+}
+
+.latest-news .article-divider {
+  margin: 10px;
+}
+
+
+
+.latest-news .article a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.latest-news .article a:hover {
+  color: blue;
+}
+
+.latest-news .article:last-child {
+  margin-bottom: 10px;
+}

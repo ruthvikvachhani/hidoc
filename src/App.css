@@ -1,0 +1,15 @@
+.App {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.main {
+  padding: 30px;
+  background-color: whitesmoke;
+}
+
+h2{
+  text-align: center;
+  padding: 10px 0;
+}

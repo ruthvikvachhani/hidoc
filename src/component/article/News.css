@@ -1,0 +1,31 @@
+.news-title {
+  text-align: center;
+}
+
+.news .news-container {
+  padding-top: 15px;
+}
+
+.news .news-container .news-img {
+  text-align: center;
+  padding: 10px;
+}
+
+.news .news-container .news-img img {
+  margin: 5px;
+}
+
+.news .news-container .news-desc {
+  text-align: justify;
+  padding: 5px;
+}
+
+.news .news-container .news-desc .news-link a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.news .news-container .news-desc .news-link a:hover {
+  text-decoration: none;
+  color: green;
+}

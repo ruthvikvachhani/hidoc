@@ -1,0 +1,53 @@
+.explore{
+    border: 2px solid grey;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.explore .lable {
+  margin: 5px;
+  padding: 7px 0;
+  font-size: 20px;
+}
+
+
+.explore .article .article-divider {
+   margin: 10px;
+}
+
+.explore .article .article-desc {
+    font-size: small;
+}
+
+.explore .article {
+  margin: 10px;
+}
+
+.explore .article div {
+  margin:10px;
+  padding: 5px 0;
+  text-align: justify;
+}
+
+.explore .article a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.explore .article a:hover {
+  color: blue;
+}
+
+.explore .article:last-child {
+  margin-bottom: 5  px;
+}
+
+.explore-button button{
+    border: none;
+    height: 4rem;
+    margin: 10px 0;
+    width: 23rem;
+    border-radius: 6px;
+    background-color: dodgerblue;
+}
